@@ -1,0 +1,114 @@
+/* General styles for the form */
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+/* Style for form-control divs */
+.form-control {
+  margin-bottom: 20px;
+}
+
+/* Style for the labels */
+form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Style for the input fields */
+form input[type="text"],
+form input[type="email"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Focus state for the input fields */
+form input[type="text"]:focus,
+form input[type="email"]:focus {
+  border-color: #007BFF;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  outline: none;
+}
+
+/* Style for error messages */
+.error {
+  color: red;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+/* Style for nested social media fields */
+form .social {
+  margin-bottom: 20px;
+}
+
+/* Style for phone numbers field array */
+form .phNumbers {
+  margin-bottom: 20px;
+}
+
+/* Style for dynamically added phone number fields */
+form .phNumbers > div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+
+
+
+/*--------------------------*/
+
+
+button {
+  padding: 10px 15px;
+  margin: 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  font-size: 1em;
+}
+
+button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+button[type='button'] {
+  background-color: #6c757d;
+}
+
+button[type='button']:hover {
+  background-color: #5a6268;
+}
+
+button[type='submit'] {
+  background-color: #28a745;
+}
+
+button[type='submit']:hover {
+  background-color: #218838;
+}
+
+button[type='button']:hover,
+button[type='submit']:hover {
+  opacity: 0.8;
+}
+
+
+
+
+
+/*----------------------------------------------*/
